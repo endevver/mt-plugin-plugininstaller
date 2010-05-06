@@ -50,7 +50,7 @@ Installing a plugin is simple. Follow these steps:
 
 **Where to find your Read-Only Git URL on github**
 
-![Where to find a Git URL on github](http://skitch.com/byrnereese/dnj6n/byrnereese-s-mt-plugin-configassistant-at-master-github)
+![Where to find a Git URL on github](http://img.skitch.com/20100506-kbpb1fru6tya9jesjc3ixsbg.jpg)
 
 # Developer Guide
 
