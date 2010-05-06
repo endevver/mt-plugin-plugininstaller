@@ -44,8 +44,13 @@ This plugin requires that you have git installed. To install git, please read th
 Installing a plugin is simple. Follow these steps:
 
 1. Go to the System's Plugin Listing Screen.
+
 2. In the right hand column, click on the link that says, "Install plugin from git."
+
+    ![Install Plugin from git](http://img.skitch.com/20100506-b29xmxnrx1e8gy4kyk9ikawk8i.jpg)
+
 3. In the dialog that appears, enter in the Read-Only git URL for the plugin you want to install (see screenshot below)
+
 4. Click the "Install" button.
 
 **Where to find your Read-Only Git URL on github**
