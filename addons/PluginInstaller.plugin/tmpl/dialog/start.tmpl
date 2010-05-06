@@ -1,0 +1,42 @@
+<mt:setvarblock name="page_title"><__trans phrase="Install Plugin"></mt:setvarblock>
+<mt:ignore>
+<mt:setvarblock name="html_head" append="1">
+    <link rel="stylesheet" href="<mt:var name="static_uri">addons/PluginInstaller/app.css" type="text/css" />
+</mt:setvarblock>
+</mt:ignore>
+<mt:include name="dialog/header.tmpl">
+
+<form method="post" action="<mt:var name="script_url">">
+    <input type="hidden" name="__mode" value="install_plugin" />
+    <input type="hidden" name="magic_token" value="<mt:var name="magic_token">" />
+
+    <mtapp:setting
+        id="giturl"
+        label_class="top-label"
+        label="<__trans phrase="Git URL">"
+        hint="Enter the URL to the plugin's git repository, e.g. git@github.com:openmelody/melody.git"
+        show_hint="1">
+      <input name="git-url" type="text" size="60" />
+    </mtapp:setting>
+
+    <div class="actions-bar">
+        <div class="actions-bar-inner pkg actions">
+            <button
+                type="submit"
+                accesskey="s"
+                title="<__trans phrase="Install (i)">"
+                class="primary-button"
+                ><__trans phrase="Install"></button>
+            <button
+                onclick="closeDialog(); return false"
+                type="submit"
+                accesskey="x"
+                title="<__trans phrase="Cancel (x)">"
+                ><__trans phrase="Cancel"></button>
+        </div>
+    </div>
+
+</form>
+</mt:if>
+
+<mt:include name="dialog/footer.tmpl">

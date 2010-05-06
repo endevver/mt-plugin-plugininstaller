@@ -1,0 +1,19 @@
+id: PluginInstaller
+name: Plugin Installer
+description: This component provides the ability to install and upgrade plugins through a source code control repository, specifically git.
+version: 0.1
+
+config_settings:
+  PluginInstallPath: 
+    default: 'mt-static/support/installed-plugins'
+    path: 1
+
+applications:
+  cms:
+    methods:
+      install_plugin_start: $PluginInstaller::PluginInstaller::Plugin::install_dialog
+      install_plugin: $PluginInstaller::PluginInstaller::Plugin::do_install
+
+callbacks:
+  MT::App::CMS::template_param.cfg_plugin: $PluginInstaller::PluginInstaller::Plugin::xfrm_cfg_plugin
+
