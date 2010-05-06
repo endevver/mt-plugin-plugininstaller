@@ -51,11 +51,11 @@ Installing a plugin is simple. Follow these steps:
 
 3. In the dialog that appears, enter in the Read-Only git URL for the plugin you want to install (see screenshot below)
 
+    ![Where to find a Git URL on github](http://img.skitch.com/20100506-kbpb1fru6tya9jesjc3ixsbg.jpg)
+
 4. Click the "Install" button.
 
-**Where to find your Read-Only Git URL on github**
-
-![Where to find a Git URL on github](http://img.skitch.com/20100506-kbpb1fru6tya9jesjc3ixsbg.jpg)
+    ![Install Dialog](http://img.skitch.com/20100506-k8theabtf51af3jgf22m6a6f23.jpg)
 
 # Developer Guide
 
