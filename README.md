@@ -93,7 +93,7 @@ These files would be placed into git using the following structure (respectively
 * MyPlugin/tmpl/static/app.css
 * MyPlugin/lib/MyPlugin/Plugin.pm
 
-*The Melody Core team recognizes that this is a big shift for plugin developers and also hopes that developers see the advantage in making this change. They are committed to helping any developer who comes to them. If you need help or have questions, please contact [our mailing list](http://groups.google.com/group/openmelody).
+*The Melody Core team recognizes that this is a big shift for plugin developers and also hopes that developers see the advantage in making this change. They are committed to helping any developer who comes to them. If you need help or have questions, please contact [our mailing list](http://groups.google.com/group/openmelody).*
 
 # TODO
 
